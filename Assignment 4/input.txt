@@ -1,0 +1,26 @@
+create planetSystem Kerbol 5843.42 16402.1 0 63354
+addPlanet Moho Kerbol 572.3 95.45 34.3 0.023
+addPlanet Eve Moho 423.32 155.32 0.0001 0.4
+addSatellite Gilly Eve 123.2 32.65 0.0 0.0
+addPlanet Kerbin Eve 300.22 101.346 64.4 0.006
+addSatellite Mun Kerbin 113.2 32.65 0.0 3.3
+addSatellite Minmus Kerbin 123.2 32.65 2.0 12.0
+addPlanet Duna Kerbin 300.22 101.346 64.4 0.006
+addSatellite Ike Duna 123.2 32.65 2.0 0.0
+addPlanet Dres Duna 300.22 101.346 64.4 44.006
+addPlanet Jool Dres 300.22 101.346 64.4 212.006
+addSatellite Laythe Jool 113.2 32.65 0.0 0.3
+addSatellite Vall Jool 113.2 32.65 0.0 5.3
+addSatellite Tylo Jool 113.2 32.65 0.0 0.3
+addSatellite Bop Jool 113.2 32.65 0.0 22.3
+addSatellite Pol Jool 113.2 32.65 0.0 112.3
+addPlanet Eeloo Jool 572.3 95.45 34.3 0.023
+getPathTo Bop
+getPathTo Mun
+findRadiationAnomalies 0
+findRadiationAnomalies 120
+printMissionReport Tylo
+printMissionReport Eve
+printMissionReport
+exit
+
